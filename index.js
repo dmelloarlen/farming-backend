@@ -37,7 +37,7 @@ mongoose.connect("mongodb+srv://arlendmello03:arlen1911@ocb-cluster.cnudxss.mong
 
   const storage = multer.diskStorage({
     destination: function (req, file, cb) {
-      cb(null, '../farming-schemes/src/images')
+      cb(null, './upload/images')
     },
     filename: function (req, file, cb) {
       const uniqueSuffix = Date.now();

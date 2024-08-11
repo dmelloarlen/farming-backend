@@ -3,14 +3,14 @@ import mongoose from "mongoose";
 import cors from "cors"
 import dotenv from "dotenv"
 
-import userRout from "../farmingbackend/controller/userRout.js"
-import addScheamRout from "../farmingbackend/controller/addScheamRout.js"
-import getScheams from "../farmingbackend/controller/getScheams.js"
-import getScheamContent from "../farmingbackend/controller/getScheamContent.js"
-import getUser from "../farmingbackend/controller/getUser.js"
-import applicationsRout from "../farmingbackend/controller/applicationsRout.js"
-import getApplications from "../farmingbackend/controller/getApplications.js"
-import approvedApplicationsRout from "../farmingbackend/controller/approvedApplicationsRout.js"
+import userRout from "../farming-backend/controller/userRout.js"
+import addScheamRout from "../farming-backend/controller/addScheamRout.js"
+import getScheams from "../farming-backend/controller/getScheams.js"
+import getScheamContent from "../farming-backend/controller/getScheamContent.js"
+import getUser from "../farming-backend/controller/getUser.js"
+import applicationsRout from "../farming-backend/controller/applicationsRout.js"
+import getApplications from "../farming-backend/controller/getApplications.js"
+import approvedApplicationsRout from "../farming-backend/controller/approvedApplicationsRout.js"
 
 import multer from "multer";
 

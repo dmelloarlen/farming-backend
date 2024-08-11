@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import cors from "cors"
 import dotenv from "dotenv"
 
-import userRout from "../farming-backend/controller/userRout.js"
+import userRout from "./controller/userRout.js"
 import addScheamRout from "../farming-backend/controller/addScheamRout.js"
 import getScheams from "../farming-backend/controller/getScheams.js"
 import getScheamContent from "../farming-backend/controller/getScheamContent.js"

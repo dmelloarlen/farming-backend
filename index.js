@@ -4,13 +4,13 @@ import cors from "cors"
 import dotenv from "dotenv"
 
 import userRout from "./controller/userRout.js"
-import addScheamRout from "../farming-backend/controller/addScheamRout.js"
-import getScheams from "../farming-backend/controller/getScheams.js"
-import getScheamContent from "../farming-backend/controller/getScheamContent.js"
-import getUser from "../farming-backend/controller/getUser.js"
-import applicationsRout from "../farming-backend/controller/applicationsRout.js"
-import getApplications from "../farming-backend/controller/getApplications.js"
-import approvedApplicationsRout from "../farming-backend/controller/approvedApplicationsRout.js"
+import addScheamRout from "./controller/addScheamRout.js"
+import getScheams from "./controller/getScheams.js"
+import getScheamContent from "./controller/getScheamContent.js"
+import getUser from "./controller/getUser.js"
+import applicationsRout from "./controller/applicationsRout.js"
+import getApplications from "./controller/getApplications.js"
+import approvedApplicationsRout from "./controller/approvedApplicationsRout.js"
 
 import multer from "multer";
 

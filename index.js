@@ -64,7 +64,7 @@ app.use('/images', express.static(uploadDir));
 app.post('/upimg', upload.single('image'), async (req, res) => {
   try {
     // Respond with the image URL
-    const imageUrl = `http://localhost:4000/images/${req.file.filename}`;
+    const imageUrl = `https://farming-backend-ldnp.onrender.com/${req.file.filename}`;
     // console.log(imageUrl)
     res.json({ image_url: imageUrl });
   } catch (error) {
